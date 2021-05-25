@@ -1,0 +1,66 @@
+markdown: kramdown
+url: 'https://johnward.net'
+baseurl: null
+title: Vertex Stream
+description: >-
+  VertexStream - 3D Graphics experts. We are experts in streaming your vertices.
+site-image: /WhatATheme/assets/images/meta.jpg
+site-keywords: >-
+  Vertex Stream, 3D Graphics, 3DCommerce, Vulkan, OpenGL, Wayland
+favicon-url: images/favicon.ico
+heroimage: images/background.png
+email: john@johnward.net
+facebook_username: null
+twitter_username: johnwardnet
+instagram_username: null
+linkedin_username: wardjp
+github_username: vertexstream
+youtube_channel_id: null
+reddit_username: null
+behance_username: null
+dribbble_username: null
+spotify_username: null
+google-analytics: null
+disqus-shortname: null
+author-name: John Ward
+author-image: images/profile.png
+author-about: >-
+  Welcome to the VertexStream project. This aim of this project is to so enable 3d objects to be viewed on mobile devices and web applications (websites) for the use in 3D Commerce, and for industrial use. The will proivide an open source reference back end framework that will server your 3d contents securely to any location. We will also privide the white label integration components for the client side, these are on web pages, and applications, such as iOS, Android, Qt and GTK+
+author-url: 'https://github.com/vertexstream'
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-sitemap
+permalink: 'blog/:title'
+compress_html:
+  clippings: all
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      post-image: ''
+      description: ''
+      tags:
+        - ''
+  - scope:
+      type: pages
+    values:
+      layout: page
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+
+
