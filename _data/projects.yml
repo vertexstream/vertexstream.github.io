@@ -1,9 +1,0 @@
-- name: Quadrapassel
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  link: https://wiki.gnome.org/Apps/Quadrapassel
-  description: Quadrapassel is the project I am very proud to be the maintainer of. It is a game that is very simlier to the classic game Tetris. I provide regular releases to the upstream which is taken by the major distros that provide GNOME.
-- name: OpenGL BAsic Scene
-  link: https://github.com/johnward/OpenGLBasicScene
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: This project to show the various parts of the OpenGL / Graphics programming pipline to produce a scene. It is to be used as a test program for compositing etc.
--
